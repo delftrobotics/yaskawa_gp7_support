@@ -5,7 +5,6 @@
 		<!-- link list -->
 		<link name="${prefix}base_link">
 			<visual>
-			        <origin rpy="0 0 3.14159"/>
 				<geometry>
 					<mesh filename="package://yaskawa_gp7_support/meshes/gp7/visual/gp7_base_axis.stl" />
 				</geometry>
@@ -14,7 +13,6 @@
 				</material>
 			</visual>
 			<collision>
-			        <origin rpy="0 0 3.14159"/>
 				<geometry>
 					<mesh filename="package://yaskawa_gp7_support/meshes/gp7/collision/gp7_base_axis.stl" />
 				</geometry>
@@ -58,7 +56,7 @@
 				<geometry>
 					<mesh filename="package://yaskawa_gp7_support/meshes/gp7/visual/gp7_u_axis.stl"/>
 				</geometry>
-				<material name="blue"/>
+				<material name="silver"/>
 			</visual>
 			<collision>
 				<geometry>
@@ -72,7 +70,7 @@
 				<geometry>
 					<mesh filename="package://yaskawa_gp7_support/meshes/gp7/visual/gp7_r_axis.stl"/>
 				</geometry>
-				<material name="silver"/>
+				<material name="blue"/>
 			</visual>
 			<collision>
 				<geometry>
@@ -86,7 +84,7 @@
 				<geometry>
 					<mesh filename="package://yaskawa_gp7_support/meshes/gp7/visual/gp7_b_axis.stl"/>
 				</geometry>
-				<material name="blue"/>
+				<material name="silver"/>
 			</visual>
 			<collision>
 				<geometry>
@@ -100,7 +98,7 @@
 				<geometry>
 					<mesh filename="package://yaskawa_gp7_support/meshes/gp7/visual/gp7_t_axis.stl" />
 				</geometry>
-				<material name="silver"/>
+				<material name="blue"/>
 			</visual>
 			<collision>
 				<geometry>
